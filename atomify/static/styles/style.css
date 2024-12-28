@@ -1,0 +1,52 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+:root {
+    --bulma-primary: #415f9d;
+    --dark-grey: #333333;
+    --medium-grey: #636363;
+    --light-grey: #eeeeee;
+    --ash: #f4f4f4;
+    --nav-color: #282828;
+    --nav-sticky-bg: #0071ad;
+    --nav-sticky-color: #fff;
+    --primary-color: #415f9d;
+    --white: white;
+    --border: 1px solid var(--light-grey);
+    --shadow: rgba(0, 0, 0, 0.2) 0px 6px 24px 0px,
+        rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+body {
+    font-family: text, sans-serif;
+    background-color: var(--white);
+    color: var(--dark-grey);
+    letter-spacing: -0.4px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: inherit;
+}
+
+.btn {
+    display: block;
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 0.6rem 1.4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+}

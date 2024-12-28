@@ -1,0 +1,32 @@
+@font-face {
+    font-family: logo;
+    src: url('../fonts/Nexa_Black.ttf');
+}
+
+@font-face {
+    font-family: title;
+    src: url('../fonts/YesevaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: text;
+    src: url('../fonts/Inter.ttf');
+}
+
+@font-face {
+    font-family: header-link;
+    src: url('../fonts/OpenSans.ttf');
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-stretch: condensed;
+}
+
+@font-face {
+    font-family: dropdown-link;
+    src: url('../fonts/OpenSans.ttf');
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-stretch: semi-condensed;
+}

@@ -1,0 +1,25 @@
+{% load static tailwind_tags %}
+{% load suffix %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            {% filter suffix:' -' %}
+                {% block title %}
+                {% endblock title %}
+            {% endfilter %}
+        Atomify</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="HKDSE Chemistry Notes">
+        <meta name="keywords" content="HKDSE, chemistry, chem">
+        <meta name="author" content="Skye Wong">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% tailwind_css %}
+    </head>
+    <body>
+        {% include "menu.html" %}
+        {% block content %}
+        {% endblock content %}
+    </body>
+</html>
